@@ -19,7 +19,7 @@ function Home() {
                     </div>
                     <div className='content'>
                         <p className='description'>
-                            I am a Software Engineer with proficiency in Java, Python, JavaScript, etc.  I am eager to contribute my skills and passion for software development to a dynamic team and drive innovation in a collaborative environment.
+                            I am a Software Engineer with proficiency in Java, Python, JavaScript, etc.  I am proficient in front-end and backend development but prefer backend technologies.  I am eager to contribute my skills and passion for software development to a dynamic team and drive innovation in a collaborative environment.
                         </p>
                     </div>
                     <div className='social-icons'>
