@@ -1,0 +1,51 @@
+/* Set a fixed width for the projects container */
+.projects {
+  display: flex; /* Display projects in a row */
+  overflow-x: scroll; /* Enable horizontal scrolling */
+  gap: 20px; /* Add some spacing between project cards */
+  border: solid white 2px;
+  padding: 20px; /* Add padding to the project container */
+  max-width: calc(100% - 40px); /* Adjust the fixed width as needed */
+  margin-left: 20px; /* Fixed area from the left */
+}
+.project-card {
+  /* Your card styles */
+  transition: transform 0.2s ease;
+}
+
+.project-card:hover {
+  transform: scale(1.1);
+  /* Add styles for the additional information div below */
+}
+.project-container {
+  display: flex; /* Display project cards in a row */
+  flex-wrap: nowrap; /* Prevent project cards from wrapping to the next line */
+}
+.project-img{
+  width: 60%;
+}
+/* Style for each project card (adjust as needed) */
+.project-card {
+  flex: 0 0 auto; /* Don't allow project cards to grow or shrink */
+  width: 300px; /* Adjust the card width as needed */
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(202, 146, 146, 0.05);
+}
+
+/* Style for project links (adjust as needed) */
+.project-card-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.projects-top-left {
+  text-align: left;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.underline {
+  border-bottom: 2px solid #000; /* Adjust the underline style */
+}

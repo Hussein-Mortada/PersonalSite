@@ -1,0 +1,33 @@
+/* Add CSS styles to your elements */
+.about-top-left {
+    text-align: left;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+  
+  .about-center {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 600px; /* Adjust the width as needed */
+  }
+  
+  .about-logo {
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    margin-left: -75%;
+    transform: translate(-50%, -50%);
+    width: 10px;
+  }
+  
+  .underline {
+    border-bottom: 2px solid #000; /* Adjust the underline style */
+  }
+  .education,.why,.contact{
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+  }
+  
+  /* Additional styles for h1, h2, and p elements */
+  
