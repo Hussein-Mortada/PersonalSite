@@ -13,7 +13,6 @@ function Home() {
                         <h1 className='name'>
                             Hussein Mortada
                             <span className='underline'></span>
-                            <a href='#home'></a>
                         </h1>
                         <p className='subtitle'>Software Engineer</p>
                         <p className='subtitle'>Open to Work</p>
