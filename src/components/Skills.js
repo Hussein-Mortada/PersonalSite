@@ -6,7 +6,7 @@ import '../styles/skills.css';
 function Skills() {
     return (
         <div className='pageContainer'>
-            <div className='SkillsContainer'>
+            <div className='SkillsContainer' id='skills'>
                 <div className='section'>
                     <div className='skills-top-left'>
                         <h1>Skills</h1>

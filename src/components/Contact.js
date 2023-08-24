@@ -7,7 +7,7 @@ import '../styles/contact.css';
 function Contact() {
     return (
       <div className='pageContainer'>
-        <div className='ContactContainer'>
+        <div className='ContactContainer' id='contact'>
           <div className='section'>
           <div className='contact-top-left'>
                         <h1>Contact</h1>

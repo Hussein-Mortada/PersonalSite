@@ -39,7 +39,7 @@ const projectsData = [
 function Projects() {
     return (
       <div className='pageContainer'>
-        <div className='ProjectsContainer'>
+        <div className='ProjectsContainer' id='projects'>
           <div className="section">
             <div className='projects-top-left'>
               <h1>Projects</h1>

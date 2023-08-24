@@ -7,7 +7,7 @@ import Logo from '../media/sait logo.png';
 function About(){
     return (
         <div className='pageContainer'>
-  <div className='AboutContainer'>
+  <div className='AboutContainer' id='about'>
     <div className='section'>
       <div className='about-top-left'>
         <h1>About Me</h1>

@@ -7,12 +7,13 @@ import '../styles/App.css';
 function Home() {
     return (
         <div className='pageContainer'>
-            <div className='HomeContainer'>
+            <div className='HomeContainer' id='home'>
                 <div className='section dark-bg'>
                     <div className='header'>
                         <h1 className='name'>
                             Hussein Mortada
                             <span className='underline'></span>
+                            <a href='#home'></a>
                         </h1>
                         <p className='subtitle'>Software Engineer</p>
                         <p className='subtitle'>Open to Work</p>

@@ -6,11 +6,11 @@ function Agenda() {
     return (
         <div className='container'>
         <div className='agenda'>
-            <p>Home</p>
-            <p>About</p>
-            <p>Skills</p>
-            <p>Projects</p>
-            <p>Contact</p>
+            <a href='#home'>Home</a>
+            <a href='#about'>About</a>
+            <a href='#skills'>Skills</a>
+            <a href='#projects'>Projects</a>
+            <a href='#contact'>Contact</a>
         </div>
         </div>
     );
