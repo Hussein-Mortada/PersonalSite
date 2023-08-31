@@ -1,0 +1,33 @@
+/* home.css */
+.home-container {
+    color: #5D2A42;
+    padding: 20px;
+    height: 75vh;
+    margin-left: 10%;
+    font-weight: bold;
+    margin-top: 10%;
+    width: 50%;
+  }
+  
+  .hello {
+    font-size: 16px;
+    margin: 0;
+  }
+  
+  .name {
+    font-size: 72px;
+    margin: 5px 0; /* Add some vertical spacing */
+  }
+  
+  .title {
+    font-size: 36px;
+    margin: 0;
+  }
+  
+  .small-desc {
+    font-size: 16px;
+    margin-top: 10px; /* Add top margin for spacing */
+  }
+  
+  /* Style any other elements as needed */
+  

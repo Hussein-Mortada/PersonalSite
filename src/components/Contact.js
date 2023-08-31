@@ -1,13 +1,10 @@
 import React from 'react';
 
-import '../styles/App.css';
-import '../styles/global.css';
-import '../styles/contact.css';
+import '../css/contact.css';
 
 function Contact() {
     return (
-      <div className='pageContainer'>
-        <div className='ContactContainer' id='contact'>
+        <div className='contact-container' id='contact'>
           <div className='section'>
           <div className='contact-top-left'>
                         <h1>Contact</h1>
@@ -22,9 +19,7 @@ function Contact() {
             </div>
           </div>
         </div>
-      </div>
     );
   }
   
   export default Contact;
-

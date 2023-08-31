@@ -1,0 +1,38 @@
+/* about.css */
+.about-container {
+    color: #5D2A42;
+    margin-left: 10%;
+    margin-left: 10%; /* Adjust as needed */
+    width: 50%; /* Adjust as needed */
+    padding: 20px;
+    height: 75vh;
+  }
+  
+  .about-top-left {
+    font-weight: bold;
+  }
+  
+  .underline {
+    background-color: #5d2a42;
+    height: 3px;
+    width: 100%;
+  }
+  
+  .education {
+    font-size: 24px;
+  }
+  
+  .about-center {
+    font-size: 16px;
+  }
+  
+  .why {
+    font-size: 24px;
+  }
+  
+  .contact {
+    font-size: 24px;
+  }
+  
+  /* Style for other elements as needed */
+  

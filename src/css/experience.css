@@ -1,0 +1,52 @@
+/* experience.css */
+.experience-container {
+  color: #5D2A42;
+  margin-left: 10%;
+  width: 80%;
+  padding: 20px;
+  height: 75vh;
+  margin-top: 20%;
+}
+
+.underline {
+  background-color: #5d2a42;
+  height: 3px;
+  width: 100%;
+}
+
+/* Corrected class name to match the Swiper component */
+.mySwiper {
+  height: 500px !important;
+}
+
+/* Corrected class name for the Swiper slides */
+.swiper-slide {
+  height: 500px;
+}
+.slide-content img{
+  max-width: 99%;
+  max-height: 300px;
+}
+
+.slide-content {
+  text-align: center;
+}
+
+.slide-content img {
+  max-width: 100%;
+  height: auto;
+}
+
+.slide-content h2 {
+  font-size: 24px;
+  margin-top: 10px;
+  color: #5D2A42; /* Set the text color to white */
+}
+
+.slide-content p {
+  font-size: 16px;
+  margin-top: 10px;
+  color: #5D2A42; /* Set the text color to white */
+}
+
+/* ... */

@@ -1,41 +1,14 @@
-import React from 'react';
-import '../styles/global.css';
-import '../styles/Home.css';
-import '../styles/App.css';
+import React from "react";
+import "../css/home.css";
 
-
-function Home() {
+function Home(){
     return (
-        <div className='pageContainer'>
-            <div className='HomeContainer' id='home'>
-                <div className='section dark-bg'>
-                    <div className='header'>
-                        <h1 className='name'>
-                            Hussein Mortada
-                            <span className='underline'></span>
-                        </h1>
-                        <p className='subtitle'>Software Engineer</p>
-                        <p className='subtitle'>Open to Work</p>
-                    </div>
-                    <div className='content'>
-                        <p className='description'>
-                            I am a Software Engineer with proficiency in Java, Python, JavaScript, etc.  I am proficient in front-end and backend development but prefer backend technologies.  I am eager to contribute my skills and passion for software development to a dynamic team and drive innovation in a collaborative environment.
-                        </p>
-                    </div>
-                    <div className='social-icons'>
-                        <a href='https://github.com/Hussein-Mortada' target='_blank' rel='noopener noreferrer'>
-                            <i className='fa fa-github'></i>
-                        </a>
-                        <a href='https://www.linkedin.com/in/husseinmortada' target='_blank' rel='noopener noreferrer'>
-                            <i className='fa fa-linkedin'></i>
-                        </a>
-                    </div>
-                    <div className='scroll-arrow'>
-                        <p>Scroll Down</p>
-                        <div className='arrow'></div>
-                    </div>
-                </div>
-            </div>
+        <div className="home-container" id="home">
+            <h3 className="hello">Hello, I'm</h3>
+            <h1 className="name">Hussein Mortada.</h1>
+            <h1 className="title">Looking For Work</h1>
+            <p className="small-desc">I am a software developer.  I work in Java, Python, JavaScript.  I develop web applications or REST API's.  Feel free to connect with me or 
+            check out my projects! :) </p>
         </div>
     );
 }

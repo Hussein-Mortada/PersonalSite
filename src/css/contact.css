@@ -1,13 +1,20 @@
 .contact-top-left {
     text-align: left;
-    position: absolute;
+    position: relative;
     top: 20px;
     left: 20px;
     width: 80%;
   }
-
+  .contact-container {
+    color: #5D2A42;
+    margin-left: 10%;
+    width: 80%;
+    padding: 20px;
+    height: 75vh;
+    margin-top: 20%;
+  }
   .underline {
-    border-bottom: 2px solid #000; /* Adjust the underline style */
+    border-bottom: 2px solid #5D2A42; /* Adjust the underline style */
   }
   
   .contact-links {
@@ -15,10 +22,11 @@
   }
   
   .contact-links a {
+    margin-top: 10%;
     display: block;
     margin-bottom: 10px;
     text-decoration: none;
-    color: #ffffff; /* Adjust the link color */
+    color: #5D2A42; /* Adjust the link color */
   }
   
   .contact-links a:hover {
