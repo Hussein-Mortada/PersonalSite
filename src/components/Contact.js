@@ -16,6 +16,7 @@ function Contact() {
                             <i className='fa fa-linkedin'></i>
                             &nbsp;&nbsp;&nbsp;Connect With Me!
                         </a>
+                        <p>Icon from <a href='https://www.freepik.com/'>freepik</a></p>
             </div>
           </div>
         </div>
