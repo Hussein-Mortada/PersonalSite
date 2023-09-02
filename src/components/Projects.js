@@ -13,7 +13,7 @@ import homenv from "../media/Home nVentory.png";
 import leetcode from "../media/LeetCode_Sharing.png";
 import bst from "../media/bst.jpg";
 import sortingalgs from "../media/sorting.jpg";
-
+import movieapp from "../media/movie app.JPG";
 function Projects() {
     return (
         <div className="experience-container" id="projects">
@@ -23,6 +23,17 @@ function Projects() {
             </div>
 
             <Swiper pagination={true} modules={[Pagination]} className="mySwiper">
+
+            <SwiperSlide>
+                    <div className="slide-content">
+                    <a href="https://github.com/Hussein-Mortada/">
+                        <img src={movieapp} alt="Experience 1" />
+                        </a>
+                        <p >Full Stack application with focus on communicating through REST API and external API.  CRUD functionality and user authentication, using Spring Boot and React.js</p>
+                    </div>
+                </SwiperSlide>
+
+
                 <SwiperSlide>
                     <div className="slide-content">
                     <a href="https://github.com/Hussein-Mortada/Home-nVentory">
